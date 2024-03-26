@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: montserrat;
+  }
+  
+  /* navbar */
+  nav {
+    position: fixed;
+    width: 100%;
+    height: 105px;
+    background-color: white;
+  }
+  
+  .nav-container {
+    width: 95%;
+    height: 105px;
+    margin: 0 auto;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navigatio {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 105px;
+  }
+  
+  .navigatio button:nth-child(4) {
+    color: rgb(116, 129, 246);
+  }
+  
+  .navigatio button {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: Bold;
+    color: rgba(102, 102, 102, 1);
+    text-decoration: none;
+    background: none;
+    border: 0;
+  }
+  
+  .extraBtns {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 105px;
+    width: 250px;
+  }
+  
+  .wrappaperd{
+    min-height: 100%;
+    overflow: hidden;
+  }
+
+  .register {
+    cursor: pointer;
+  }
+  
+  .cart {
+    cursor: pointer;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 2px rgba(180, 180, 180, 1) solid;
+    width: 39px;
+    height: 39px;
+    border-radius: 5px;
+  }
+  
+  .cart img {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .search {
+    cursor: pointer;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 2px rgba(180, 180, 180, 1) solid;
+    width: 39px;
+    height: 39px;
+    border-radius: 5px;
+  }
+  
+  .search img {
+    width: 10px;
+    height: 10px;
+  }
+  /* navbar */
+  
+  .fon {
+    background-image: url(../img/image\ 24.png);
+    width: 100%;
+    height: 500px;
+    background-size: 1550px;
+  }
+  
+  .fon h2 {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    padding-top: 210px;
+  }
+  
+  .contact .image {
+    margin-left: 170px;
+    margin-top: 100px;
+  }
+  
+  .image img {
+    margin-top: 40px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .image {
+    display: flex;
+    height: 550px;
+  }
+  
+  .images {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 8px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  
+  .main-text h1 {
+    font-weight: 500;
+  }
+  
+  .karta {
+    margin-left: 820px;
+    margin-top: -550px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+  }
+  
+  .karta h2 {
+    margin: 0 0 20px 160px;
+  }
+  
+  /* footer */
+  footer {
+    font-family: Montserrat;
+    font-size: 10px;
+    margin-top: 200px;
+  }
+  
+  .fot {
+    font-family: Montserrat;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1350px;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-top: 450px;
+  }
+  .foot-botom {
+    margin-top: 100px;
+    height: 200px;
+  }
+  
+  .foot-botom h3 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .tet {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 50px;
+    margin-right: 100px;
+  }
+  
+  .uer {
+    width: 60px;
+    height: 60px;
+    margin-top: -5px;
+  }
+  
+  .tuck {
+    height: 20px;
+  }
+  
+  .tet h1 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .tet p {
+    font-size: 14px;
+  }
+  
+  hr {
+    width: 1250px;
+    margin-left: 75px;
+    margin-top: 30px;
+  }
+  
+  .tet1 {
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+  
+  .tet1 h3 {
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .tet2 {
+    margin-left: 420px;
+    margin-top: -117px;
+  }
+  
+  .tet2 h3 {
+    margin-top: 12px;
+    cursor: pointer;
+  }
+  
+  .tet3 {
+    margin-left: 740px;
+    margin-top: -170px;
+  }
+  
+  .tet3 h3 {
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  h3:hover {
+    color: rgb(148, 128, 128);
+  }
+  
+  .block-oran {
+    width: 100%;
+    height: 100px;
+    background-color: #ff6633;
+    margin-top: 50px;
+  }
+  
+  .block-oran h2 {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  /* footer */
+  

@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+  }
+  
+  /* navbar */
+  nav {
+    position: fixed;
+    width: 100%;
+    height: 105px;
+    background-color: white;
+  }
+  
+  .nav-containerr {
+    width: 95%;
+    height: 105px;
+    margin: 0 auto;
+  }
+  
+  .navbarr {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navigationss {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 105px;
+  }
+  
+  .navigationss button:nth-child(3) {
+    color: rgb(116, 129, 246);
+  }
+  .navigationss button {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: Bold;
+    color: rgba(102, 102, 102, 1);
+    text-decoration: none;
+    background: none;
+    border: 0;
+  }
+  
+  .extraBtnss {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 105px;
+    width: 250px;
+  }
+  .wrappers {
+    min-height: 100%;
+    overflow: hidden;
+  }
+  
+  .registerr {
+    cursor: pointer;
+  }
+  
+  .cartt {
+    cursor: pointer;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 2px rgba(180, 180, 180, 1) solid;
+    width: 39px;
+    height: 39px;
+    border-radius: 5px;
+  }
+  
+  .cartt img {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .searchh {
+    cursor: pointer;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 2px rgba(180, 180, 180, 1) solid;
+    width: 39px;
+    height: 39px;
+    border-radius: 5px;
+  }
+  
+  .searchh img {
+    width: 10px;
+    height: 10px;
+  }
+  /* navbar */
+  .imgg {
+    background-image: url(../img/image\ 18.png);
+    height: 500px;
+    width: 100%;
+    background-size: 1600px;
+    background-repeat: no-repeat;
+  }
+  
+  .imgg h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 90px;
+  }
+  
+  .main-textt h1 {
+    text-align: center;
+    color: black;
+    font-size: 55px;
+    font-weight: 550;
+    margin-top: 65px;
+  }
+  
+  .about-us-imge img {
+    margin-top: 60px;
+  }
+  
+  .about-us-imge h1 {
+    margin-left: 790px;
+    font-size: 40px;
+    margin-top: -420px;
+  }
+  
+  .about-us-imge h2 {
+    margin-left: 790px;
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  
+  .about-us-imagee img {
+    margin-left: 715px;
+    margin-top: 150px;
+  }
+  
+  .about-us-imagee h1 {
+    margin-left: 50px;
+    font-size: 40px;
+    margin-top: -400px;
+  }
+  
+  .about-us-imagee h2 {
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  .card-h11 h1 {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 50px;
+  }
+  
+  
+  .cardd img {
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 125px;
+  }
+  /* footer */
+  footer {
+    font-family: Montserrat;
+    font-size: 10px;
+    margin-top: 200px;
+  }
+  
+  .footerr {
+    font-family: Montserrat;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1330px;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-top: -100px;
+  }
+  .footer-bottomm {
+    margin-top: 100px;
+    height: 200px;
+  }
+  
+  .footer-bottomm h3 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .textt {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 50px;
+    margin-right: 100px;
+  }
+  
+  .userr {
+    width: 60px;
+    height: 60px;
+    margin-top: -5px;
+  }
+  
+  .truckk {
+    height: 20px;
+  }
+  
+  .textt h1 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .textt p {
+    font-size: 14px;
+  }
+  
+  hr {
+    width: 1250px;
+    margin-left: 75px;
+    margin-top: 30px;
+  }
+  
+  .text11 {
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+  
+  .text11 h3 {
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .text22 {
+    margin-left: 420px;
+    margin-top: -117px;
+  }
+  
+  .text22 h3 {
+    margin-top: 12px;
+    cursor: pointer;
+  }
+  
+  .text33 {
+    margin-left: 740px;
+    margin-top: -170px;
+  }
+  
+  .text33 h3 {
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  h3:hover {
+    color: rgb(148, 128, 128);
+  }
+  
+  .block-orangee {
+    width: 100%;
+    height: 100px;
+    background-color: #ff6633;
+    margin-top: 50px;
+  }
+  
+  .block-orangee h2 {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  /* footer */
+  
